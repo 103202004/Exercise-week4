@@ -16,7 +16,7 @@ void draw(){
     rect(x,0,spacing,180-sin(a)*50);
     rect(x,height-(180+sin(a)*50),spacing,180+sin(a)*50);
 
-    a = a + inc;
+    a = a + inc; 
     
 }
 }
